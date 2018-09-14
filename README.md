@@ -2,7 +2,7 @@
 This is an attempt to convert a freescale race car using BeagleBone blue
 
 1. 3D stand was created by Kendrick Tan (from Temple University)
-sudo pip3 install pgen
+
 
 2. Machine Learnign Car was created by Kendrick Tan (from Australia) [https://github.com/kendricktan/suiron]
 
@@ -11,6 +11,7 @@ sudo pip3 install pgen
 ```
 sudo apt-get update
 sudo apt-get upgrade
+sudo apt-get install cython3
 sudo apt-get install python3-opencv python3-dev
 
 wget https://github.com/samjabrahams/tensorflow-on-raspberry-pi/releases/download/v1.1.0/tensorflow-1.1.0-cp34-cp34m-linux_armv7l.whl
