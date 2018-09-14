@@ -1,5 +1,5 @@
 # beaglecar
-This is an attempt to create a race car using beagle bone blue
+This is an attempt to convert a freescale race car using BeagleBone blue
 
 
 Install tensorflow
