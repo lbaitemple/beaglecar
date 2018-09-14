@@ -13,6 +13,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install cython3
 sudo apt-get install python3-opencv python3-dev
+sudo python3 -m pip install --ignore-installed -r requirements.txt
 
 wget https://github.com/samjabrahams/tensorflow-on-raspberry-pi/releases/download/v1.1.0/tensorflow-1.1.0-cp34-cp34m-linux_armv7l.whl
 mv tensorflow-1.1.0-cp34-cp34m-linux_armv7l.whl tensorflow-1.1.0-cp36-cp36m-linux_armv7l.whl
