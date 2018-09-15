@@ -12,7 +12,9 @@ This is an attempt to convert a freescale race car using BeagleBone blue
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install cython3
-sudo apt-get install python3-opencv python3-dev
+sudo apt-get install python3-opencv python3-dev libhdf5-dev
+git clone https://github.com/lbaitemple/beaglecar
+cd beaglecar
 sudo python3 -m pip install --ignore-installed -r requirements.txt
 
 wget https://github.com/samjabrahams/tensorflow-on-raspberry-pi/releases/download/v1.1.0/tensorflow-1.1.0-cp34-cp34m-linux_armv7l.whl
