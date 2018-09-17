@@ -1,7 +1,7 @@
 # beaglecar
 This is an attempt to convert a freescale race car using BeagleBone blue
 
-1. 3D stand was created by Kendrick Tan (from Temple University)
+1. 3D stand was created by Kenrick Tan (from Temple University)
 
 
 2. Machine Learnign Car was created by Kendrick Tan (from Australia) [https://github.com/kendricktan/suiron]
