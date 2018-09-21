@@ -16,6 +16,9 @@ sudo apt-get install libfreetype6-dev pkg-config
 sudo apt-get install libblas3 liblapack3 liblapack-dev libblas-dev
 git clone https://github.com/lbaitemple/beaglecar
 cd beaglecar
+sudo dd if=/dev/zero of=/swapfile bs=1M count=1024 
+sudo mkswap /swapfile 
+sudo swapon /swapfile
 sudo python3 -m pip install --ignore-installed -r requirements.txt
 
 wget https://github.com/samjabrahams/tensorflow-on-raspberry-pi/releases/download/v1.1.0/tensorflow-1.1.0-cp34-cp34m-linux_armv7l.whl
