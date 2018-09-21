@@ -11,7 +11,6 @@ This is an attempt to convert a freescale race car using BeagleBone blue
 ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install cython3
 sudo apt-get install python3-opencv python3-dev libhdf5-dev
 sudo apt-get install libfreetype6-dev pkg-config
 sudo apt-get install libblas3 liblapack3 liblapack-dev libblas-dev
