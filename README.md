@@ -13,6 +13,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install cython3
 sudo apt-get install python3-opencv python3-dev libhdf5-dev
+sudo apt-get install libfreetype6-dev pkg-config
 git clone https://github.com/lbaitemple/beaglecar
 cd beaglecar
 sudo python3 -m pip install --ignore-installed -r requirements.txt
