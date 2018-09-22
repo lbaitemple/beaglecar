@@ -25,6 +25,9 @@ wget https://github.com/samjabrahams/tensorflow-on-raspberry-pi/releases/downloa
 mv tensorflow-1.1.0-cp34-cp34m-linux_armv7l.whl tensorflow-1.1.0-cp36-cp36m-linux_armv7l.whl
 sudo pip3 install tensorflow-1.1.0-cp36-cp36m-linux_armv7l.whl 
 ```
-
-
+could install h5py first....
+```
+[wget https://files.pythonhosted.org/packages/22/82/64dada5382a60471f85f16eb7d01cc1a9620aea855cd665609adf6fdbb0d/h5py-2.6.0.tar.gz]
+[gunzip -c h5py-2.6.0.tar.gz | tar -xvf -]
 [sudo python3 setup.py build_ext --inplace --force]
+```
