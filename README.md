@@ -25,3 +25,6 @@ wget https://github.com/samjabrahams/tensorflow-on-raspberry-pi/releases/downloa
 mv tensorflow-1.1.0-cp34-cp34m-linux_armv7l.whl tensorflow-1.1.0-cp36-cp36m-linux_armv7l.whl
 sudo pip3 install tensorflow-1.1.0-cp36-cp36m-linux_armv7l.whl 
 ```
+
+
+[sudo python3 setup.py build_ext --inplace --force]
