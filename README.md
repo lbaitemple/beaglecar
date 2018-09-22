@@ -14,8 +14,8 @@ sudo apt-get upgrade
 sudo apt-get install python3-opencv python3-dev libhdf5-dev
 sudo apt-get install libfreetype6-dev pkg-config gfortran
 sudo apt-get install libblas3 liblapack3 liblapack-dev libblas-dev
-git clone https://github.com/lbaitemple/beaglecar
-cd beaglecar
+https://github.com/lbaitemple/suiron
+cd suiron
 sudo dd if=/dev/zero of=/swapfile bs=1M count=1024 
 sudo mkswap /swapfile 
 sudo swapon /swapfile
