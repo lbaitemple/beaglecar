@@ -15,7 +15,7 @@ sudo apt-get install python3-opencv python3-dev libhdf5-dev
 sudo apt-get install libfreetype6-dev pkg-config gfortran
 sudo apt-get install libblas3 liblapack3 liblapack-dev libblas-dev
 ```
-#1. Install Tensorflow
+#1. Install Tensorflow [about 20 mins]
 ```
 wget https://github.com/samjabrahams/tensorflow-on-raspberry-pi/releases/download/v1.1.0/tensorflow-1.1.0-cp34-cp34m-linux_armv7l.whl
 mv tensorflow-1.1.0-cp34-cp34m-linux_armv7l.whl tensorflow-1.1.0-cp36-cp36m-linux_armv7l.whl
@@ -29,7 +29,7 @@ gunzip -c h5py-2.6.0.tar.gz | tar -xvf -
 sudo python3 setup.py build_ext --inplace --force
 ```
 
-#3. Install other package according to requirement.txt, but you will need to make sure you have enough swapping space [really really long...]
+#3. Install other package according to requirement.txt, but you will need to make sure you have enough swapping space [roughly 9 hours...]
 ```
 cd ~
 https://github.com/lbaitemple/beaglecar
