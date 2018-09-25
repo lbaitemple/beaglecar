@@ -32,7 +32,7 @@ sudo python3 setup.py build_ext --inplace --force
 #3. Install other package according to requirement.txt, but you will need to make sure you have enough swapping space [roughly 9 hours...]
 ```
 cd ~
-https://github.com/lbaitemple/beaglecar
+git clone https://github.com/lbaitemple/beaglecar
 cd ~/beaglecar
 sudo dd if=/dev/zero of=/swapfile bs=1M count=1024 
 sudo mkswap /swapfile 
