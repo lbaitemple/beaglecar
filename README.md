@@ -4,7 +4,7 @@ This is an attempt to convert a freescale race car using BeagleBone blue
 1. 3D stand was created by Kenrick Tan (from Temple University)
 
 
-2. Machine Learnign Car was created by Kendrick Tan (from Australia) [https://github.com/kendricktan/suiron]
+2. Machine Learning Car was created by Kendrick Tan (from Australia) [https://github.com/kendricktan/suiron]
 
 2. Install tensorflow [https://github.com/samjabrahams/tensorflow-on-raspberry-pi/releases]
 
@@ -17,8 +17,12 @@ sudo apt-get install libblas3 liblapack3 liblapack-dev libblas-dev
 ```
 #1. Install Tensorflow [about 20 mins]
 ```
+cd && wget -c https://www.python.org/ftp/python/3.4.10/Python-3.4.10.tgz
+tar -xvf Python-3.4.10.tgz && cd Python-3.4.10
+./configure
+make -j2
+sudo make install -j2
 wget https://github.com/samjabrahams/tensorflow-on-raspberry-pi/releases/download/v1.1.0/tensorflow-1.1.0-cp34-cp34m-linux_armv7l.whl
-mv tensorflow-1.1.0-cp34-cp34m-linux_armv7l.whl tensorflow-1.1.0-cp36-cp36m-linux_armv7l.whl
 sudo pip3 install tensorflow-1.1.0-cp36-cp36m-linux_armv7l.whl 
 ```
 
