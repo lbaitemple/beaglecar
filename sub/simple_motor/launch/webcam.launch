@@ -1,0 +1,18 @@
+<launch>
+	<node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen">
+	<param name="video_device" value="/dev/video0"/>
+	<param name="pixel_format" value="yuyv" />
+	<param name="image_width" value="640" />
+	<param name="image_height" value="480" />
+	<param name="framerate" value="12" />
+      
+	</node>
+
+	<node name="web_video_server" pkg="web_video_server" type="web_video_server">
+	<param name="ros_threads" value="2"/>
+	 <param name="width" value="640" />
+        <param name="height" value="480" />
+	</node>
+
+        <node name="simple_motor" pkg="simple_motor" type="drive.py"/>
+</launch>
